@@ -42,6 +42,7 @@ public class CacheConfiguration {
             createCache(cm, com.therealdanvega.domain.User.class.getName());
             createCache(cm, com.therealdanvega.domain.Authority.class.getName());
             createCache(cm, com.therealdanvega.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.therealdanvega.domain.Post.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
